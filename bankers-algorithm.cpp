@@ -13,37 +13,6 @@
  *
  * Execution:
  *  ./bankers
- *
- */
-
-/**
- * Name: Chris Cartaya
- * Course: COP 4610 Operating Systems
- * Assignment: 3
- * Due Date: October 9, 2025 at 11:59 PM
- * Filename: Q2.c
- *
- * Description:
- *  This program simulates a busy coffee shop where five baristas share three
- *  coffee machines (left, center, and right). Each barista must acquire all
- *  three machines before making coffee and release them afterward. Semaphores
- *  are used to ensure mutual exclusion and to prevent deadlocks while multiple
- *  baristas attempt to use shared resources concurrently.
- *
- *  The simulation demonstrates the use of POSIX threads and semaphores to
- *  coordinate process synchronization, resource allocation, and safe access
- *  to shared resources in a multithreaded environment.
- *
- * Compilation:
- *  gcc -Wall -Wextra -O2 Q2.c -o Q2 -pthread
- *
- * Execution:
- *  ./Q2
- *
- * Reference:
- *  Portions of this solution were developed with the assistance of ChatGPT
- *  (OpenAI, 2025) for guidance on synchronization design and clean code
- *  structure using semaphores.
  */
 
 #include <iostream>
